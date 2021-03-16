@@ -3,7 +3,8 @@ import React from 'react';
 const Header = () => {
     return (
         <span>
-            <h1>CREATE YOUR PARTY!</h1>
+            <h1 className="headerFont">CREATE YOUR PARTY!</h1>
+            {/* <img src="http://localhost:3000/SejanusTrelenus.png"></img> */}
         </span>
     )
 }

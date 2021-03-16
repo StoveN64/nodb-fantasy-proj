@@ -29,10 +29,13 @@ export class ChosenFollowers extends Component {
         const {hero, disbandHero, editName} = this.props
         const {inputName} = this.state
         return (
-           <div>Name: {hero.name} Race: {hero.race}
+           <div>
+               <img className="chImage" src={hero.image} alt="character-porthole"/>
+                <h3 className="chText">Name: {hero.name} <br></br>Race: {hero.race}</h3>
            <input onChange={(e) => this.nameChange(e.target.value)}placeholder='Change Name?'></input>
            <button onClick={() => editName(hero.id, inputName)}>Save Name Change</button>
            <button onClick={() => disbandHero(hero.id)}>Disband?</button>
+          
            </div>
                 
         )

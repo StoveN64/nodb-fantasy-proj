@@ -31,7 +31,7 @@ render() {
           return false
         })
         return (
-           <div>
+           <div className="named-heroes">
             {namedHeroes}
            </div>
         

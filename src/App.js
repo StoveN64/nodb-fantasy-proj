@@ -65,7 +65,8 @@ class App extends Component {
             hiredHeroes = {this.state.hiredHeroes}
             editName = {this.editName}
             disbandHero = {this.disbandHero}
-          />
+            />
+          
         </div>
       )
     }

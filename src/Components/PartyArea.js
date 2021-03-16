@@ -16,9 +16,11 @@ const PartyArea = ({hiredHeroes, editName, disbandHero}) => {
        
     });
     return (
-        <div>
-            <h2>Your Chosen Followers</h2>
+        <div className="above"> <br></br><h2>Your Chosen Followers...</h2>
+        <div className="heroBox">
+            <h2></h2>
             {chosenHeroes}
+        </div>
         </div>
     )
 }

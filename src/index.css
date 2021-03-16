@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/68/82/PvDEwd.jpg") ;
+  
+ 
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.aaImage{
+  height: 250px ;
+  width: 250px;
+  
+}
+
+.finder-box {
+  /* border: white solid; */
+  margin: 20px;
+ } 
+
+.named-heroes{
+  /* border: white solid; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 40vh;
+  overflow: auto;
+  margin: 20px;
+  padding: 10px;
+  /* background-image: url("https://c0.wallpaperflare.com/preview/871/905/209/fantasy-background-sea-columnar.jpg") ; */
+  
+}
+
+.heroBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  
+}
+.headerFont{
+  color: rgb(252, 255, 100);
+  font-weight: 1000;
+  text-shadow: 4px 4px 2px rgb(3, 2, 10);
+}
+
+.chText{
+  color: rgb(255, 113, 113);
+  text-shadow: 4px 4px 2px rgb(3, 2, 10);
+  align-self: center;
+}
+
+.above{
+  color: rgb(255, 113, 113);
+  text-shadow: 5px 5px 4px rgb(3, 2, 10);
+ 
+}
+.aaText{
+  color: rgb(252, 255, 100);
+  text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+
+.chImage{
+  height: 200px;
+  width: 200px;
 }
